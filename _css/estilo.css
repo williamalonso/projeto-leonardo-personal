@@ -1,20 +1,54 @@
 @charset "utf-8";
 
-html, body{
-   height: 100%;
+/*-- Menu --*/
+#secao-principal {
+	background: url('../_imagens/intro.jpg') no-repeat;
+	background-size: cover;
+	background-position: 0 10%;
+	height: 500px;
 }
-.imagem-carrossel-um {
-    object-fit: cover;
-    object-position: top;
-    height: 750px;
+#legenda1 {
+	color: white!important;
+	font-size: 25pt;
+	padding: 10px;
+	margin-right: 0px;
 }
+#hamburguer {
+	border-color: white;
+}
+button span {
+	background-color: white;
+}
+#menu a {
+	color: white;
+	font-size: 15pt;
+	padding: 10px;
+}
+#menu a:hover {
+	text-decoration: underline;
+}
+
+/*-- Depoimentos --*/
 #depoimentos {
     background-color: lightblue;
 }
+.cor-borda {
+	border-color: lightblue;
+}
+.cor-fundo {
+	background-color: lightblue;
+}
+
+/*-- Imagem final --*/
 .imagem-carrossel-dois {
     object-fit: cover;
     height: 400px;
 }
+
+/*-- Footer --*/
 .cor-icone {
-    color:white;
+    color: white;
+}
+.cor-footer {
+	background-color: rgba(0,0,0,.7);
 }
