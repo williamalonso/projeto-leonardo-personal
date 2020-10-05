@@ -38,11 +38,33 @@ button span {
 .cor-fundo {
 	background-color: lightblue;
 }
+.sem-borda {
+	border-color: white;
+}
 
 /*-- Imagem final --*/
-.imagem-carrossel-dois {
+.imagem-carrossel {
     object-fit: cover;
-    height: 400px;
+    object-position: center;
+    height: 600px;
+}
+
+/*-- Tabela de Valores --*/
+#tabela-valores {
+	text-align: center;
+	margin: auto auto 25px;
+}
+
+/*-- Google Map --*/
+#google-map {
+	margin-top: 70px;
+	margin-bottom: 80px;
+}
+#teste h3 {
+	padding: 7px;
+}
+#teste h3 a {
+	color: black;
 }
 
 /*-- Footer --*/
